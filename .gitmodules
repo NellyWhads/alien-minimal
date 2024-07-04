@@ -6,4 +6,4 @@
 	url = https://github.com/chrissicool/zsh-256color.git
 [submodule "libs/promptlib"]
 	path = libs/promptlib
-	url = https://github.com/eendroroy/promptlib-zsh.git
+	url = https://github.com/nellywhads/promptlib-zsh.git

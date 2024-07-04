@@ -3,6 +3,7 @@
 am_theme(){
   [[ -z ${AM_VCS_COLOR} ]]              && AM_VCS_COLOR=247
   [[ -z ${AM_SSH_COLOR} ]]              && AM_SSH_COLOR=249
+  [[ -z ${AM_DOCKER_COLOR} ]]           && AM_DOCKER_COLOR=255
   [[ -z ${AM_NORMAL_COLOR} ]]           && AM_NORMAL_COLOR=255
   [[ -z ${AM_ERROR_COLOR} ]]            && AM_ERROR_COLOR=255
   [[ -z ${AM_REV_COLOR} ]]              && AM_REV_COLOR=245

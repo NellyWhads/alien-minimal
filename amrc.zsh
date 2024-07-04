@@ -28,6 +28,7 @@
 #  export AM_HG_SYM='H'
 #  export AM_SVN_SYM='S'
 #  export AM_SSH_SYM='[S]'
+#  export AM_DOCKER_SYM='D'
 #  export AM_GIT_SYM='G'
 #  export AM_GIT_REBASING_SYMBOL='⇋'
 #  export AM_GIT_PUSH_SYM='↑'
@@ -40,6 +41,7 @@
 ## ===> COLORS
 #  export AM_VCS_COLOR=248
 #  export AM_SSH_COLOR=143
+#  export AM_DOCKER_COLOR=39
 #  export AM_NORMAL_COLOR=39
 #  export AM_ERROR_COLOR=208
 #  export AM_REV_COLOR=248

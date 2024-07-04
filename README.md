@@ -176,6 +176,7 @@ _Note: **Unset `AM_THEME` to use default color scheme.**_
 ```bash
 export AM_VCS_COLOR=1          # color for VCS (G: M: V:)
 export AM_SSH_COLOR=11         # color for ssh indicator
+export AM_DOCKER_COLOR=12      # color for docker indicator
 export AM_NORMAL_COLOR=12      # color for normal text
 export AM_ERROR_COLOR=1        # color for ERROR
 export AM_REV_COLOR=14         # color for VCS Revision number
@@ -204,6 +205,7 @@ __/path/to/custom/theme.zsh__
 am_theme(){
   AM_VCS_COLOR=248
   AM_SSH_COLOR=143
+  AM_DOCKER_COLOR=39
   AM_NORMAL_COLOR=39
   AM_ERROR_COLOR=208
   AM_REV_COLOR=248
@@ -262,6 +264,7 @@ export AM_GIT_SYM='G'
 export AM_HG_SYM='H'
 export AM_SVN_SYM='S'
 export AM_SSH_SYM='[S]'
+export AM_DOCKER_SYM='[D]'
 export AM_JAVA_SYM='JAVA:'
 export AM_PY_SYM='PY:'
 export AM_RB_SYM='RB:'
